@@ -1,19 +1,32 @@
-# flutter_first_steps
+## Задание: создать несколько страниц с навигацией
 
-A new Flutter project.
+#### Экран Intro
 
-## Getting Started
+Встречаем пользователя кнопкой.
+При нажатии на кнопку осуществляем переход на экран AuthenticationScreen.
 
-This project is a starting point for a Flutter application.
+![img.png](img.png)
 
-A few resources to get you started if this is your first Flutter project:
+#### Экран Authentication
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Отображаем пользователю поле для ввода логина и dropdown для выбора профессии.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![img_1.png](img_1.png)
 
-- Добавить enums
-- Изучить подход к шерингу стейта
+#### Экран Home
+
+Отображаем приветствие пользователя и его роль.
+
+![img_2.png](img_2.png)
+
+#### Экран OverlayContentScreen
+
+Отображаем поля для ввода рандомного значения.
+
+![img_3.png](img_3.png)
+
+#### Экран Home c оверлеем
+
+Возвращаемся на экран Home. Отображаем overlay с контентом из предыдущего экрана, доваляем возможность удалить контент.
+
+![img_4.png](img_4.png)
